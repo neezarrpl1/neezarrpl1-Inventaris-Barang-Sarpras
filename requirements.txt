@@ -1,0 +1,26 @@
+# Requirements untuk Aplikasi Inventaris Barang Sekolah
+# Python 3.6 atau lebih baru
+
+# GUI
+tkinter>=8.6  # Biasanya sudah include dengan Python standar
+
+# Database
+sqlite3>=3.31.1  # Biasanya sudah include dengan Python
+
+# Manipulasi Gambar
+Pillow>=9.0.0  # Untuk PIL (Image, ImageTk)
+
+# Generate Barcode
+python-barcode>=0.14.0
+
+# PDF Report
+fpdf2>=2.5.5  # Alternatif: fpdf (versi lama)
+
+# Date Picker
+tkcalendar>=1.6.1
+
+# Logging
+logging  # Biasanya sudah include dengan Python
+
+# Tambahan untuk build executable (jika diperlukan)
+pyinstaller>=5.0  # Hanya diperlukan untuk build, tidak untuk runtime
