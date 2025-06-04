@@ -20,8 +20,32 @@ Aplikasi ini adalah sistem manajemen inventaris barang sarana dan prasarana untu
 - **python-barcode**: Generate barcode otomatis  
 - **FPDF**: Untuk generate laporan PDF  
 - **tkcalendar**: Input tanggal yang user-friendly
+  
 
-## Instalasi
+## Instalasi 
+
+
+### Instalasi Menggunakan File Executable (.exe) :
+
+Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
+
+#### 1. Unduh File yang Diperlukan
+- Buka repository: [neezarpl1-Inventaris-Barang-Sarpras](https://github.com/neezarpl1/neezarpl1-Inventaris-Barang-Sarpras)
+- Masuk ke folder `dist`, lalu klik pada file:
+  - `InventarisSekolah.exe` → Klik **Download**
+  - `inventaris.db` (jika tersedia) → Klik **Download**
+
+#### 2. Jalankan Aplikasi
+- Simpan file `InventarisSekolah.exe` dan `inventaris.db` dalam **folder yang sama**.
+- Klik dua kali `InventarisSekolah.exe` untuk menjalankan aplikasi.
+- Jika muncul peringatan dari Windows Defender, pilih **"Run anyway"** atau tambahkan pengecualian secara manual.
+
+#### 3. Persyaratan Sistem (Opsional)
+- Aplikasi dikompilasi untuk sistem operasi **Windows**.
+- Pastikan sudah terinstal **.NET Framework** jika diminta.
+- Tidak membutuhkan instalasi Python jika menggunakan file `.exe`.
+
+### Instalasi dari Kode Sumber (Source Code) :
 
 1. Clone repositori ini:
 ```bash
@@ -43,7 +67,7 @@ pip install -r requirements.txt
 4. Jalankan aplikasi:
 
 ```bash
-python src/inventaris_barang_return_fixed.py
+python src\inventaris_barang.py
 ```
 
 
