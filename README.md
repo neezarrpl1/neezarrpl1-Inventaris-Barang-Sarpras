@@ -30,8 +30,8 @@ Aplikasi ini adalah sistem manajemen inventaris barang sarana dan prasarana untu
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi:
 
 #### 1. Unduh File yang Diperlukan
-- Buka repository: [neezarpl1-Inventaris-Barang-Sarpras](neezarrpl1/neezarrpl1-Inventaris-Barang-Sarpras)
-- Masuk ke folder `dist`, lalu klik pada file:
+- Buka repository: [neezarpl1-Inventaris-Barang-Sarpras](https://github.com/neezarrpl1/neezarrpl1-Inventaris-Barang-Sarpras)
+- Masuk ke folder `dist` atau klik [dist](https://github.com/neezarrpl1/neezarrpl1-Inventaris-Barang-Sarpras/tree/main/dist), lalu klik pada file:
   - `InventarisSekolah.exe` → Klik **Download**
   - `inventaris.db` (jika tersedia) → Klik **Download**
 
